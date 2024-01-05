@@ -1,8 +1,8 @@
 {
-  "name": "phone-catalog-client",
+  "name": "react-flow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FE-AUG23-NoHuggingOnlyDebugging.github.io",
+  "homepage": "https://OlegPopovych.github.io/hr_inboost_test",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
