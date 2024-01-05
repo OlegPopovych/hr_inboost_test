@@ -1,6 +1,13 @@
 .select {
 	position: relative;
 
+	&__arrow {
+		position: absolute;
+		width: 14px;
+		height: 14px;
+		right: 0;
+	}
+
 	&__list {
 		display: flex;
 		flex-direction: column;
@@ -34,6 +41,10 @@
 	}
 
 	&__button {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content:space-between;
 		background-color: #fff;
 		width: 100%;
 		height: 2.5rem;

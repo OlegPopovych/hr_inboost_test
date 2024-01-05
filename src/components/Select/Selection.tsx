@@ -29,7 +29,6 @@ const options = [
 
 const Select = ({ nodeId }: { value: string; nodeId: string }) => {
   const nodes = useAppSelector(selectNodes);
-  // const [selected, setSelected] = useState(value);
   const [open, setOpen] = useState(false);
 
   const dispatcher = useAppDispatch();
@@ -114,6 +113,14 @@ const Select = ({ nodeId }: { value: string; nodeId: string }) => {
         onBlur={() => setOpen(false)}
       >
         {labels.join('-')}
+        <img
+          className="select__arrow"
+          src={
+            process.env.PUBLIC_URL +
+            (open ? '/keyboard_arrow_down.png' : '/expand_more.png')
+          }
+          alt="arrow"
+        />
       </button>
       {open && (
         <div className="select__list nodrag">

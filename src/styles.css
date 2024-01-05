@@ -5,6 +5,7 @@ body,
   height: 100%;
 	font-size: 10px;
 	font-family: 'IBM Plex Sans', sans-serif;
+	transition: all 0.5s;
 }
 
 .App {
